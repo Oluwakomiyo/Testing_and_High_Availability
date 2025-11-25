@@ -59,7 +59,7 @@ kubectl top nodes
 ``` bash 
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
 ```
-# verify
+## verify
 
 ``` bash
 kubectl get deployment metrics-server -n kube-system
